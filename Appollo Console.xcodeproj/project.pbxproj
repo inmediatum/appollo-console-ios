@@ -9,22 +9,15 @@
 /* Begin PBXBuildFile section */
 		F475BE651A925BC300776B83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F475BE641A925BC300776B83 /* main.m */; };
 		F475BE681A925BC300776B83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F475BE671A925BC300776B83 /* AppDelegate.m */; };
-		F475BE6B1A925BC300776B83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F475BE6A1A925BC300776B83 /* ViewController.m */; };
-		F475BE6E1A925BC300776B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F475BE6C1A925BC300776B83 /* Main.storyboard */; };
-		F475BE701A925BC300776B83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F475BE6F1A925BC300776B83 /* Images.xcassets */; };
 		F475BE731A925BC300776B83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F475BE711A925BC300776B83 /* LaunchScreen.xib */; };
-		F475BE7F1A925BC300776B83 /* Appollo_ConsoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F475BE7E1A925BC300776B83 /* Appollo_ConsoleTests.m */; };
+		F4CB74751A92BBC100DBD411 /* Appollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CB74741A92BBC100DBD411 /* Appollo.framework */; };
+		F4CB74771A92BC6800DBD411 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F4CB74761A92BC6800DBD411 /* README.md */; };
+		F4E6B3431A9291E500E621C5 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E6B3421A9291E500E621C5 /* MainTableViewController.m */; };
+		F4E6B3471A92921500E621C5 /* NotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E6B3461A92921500E621C5 /* NotificationCell.m */; };
+		F4E6B34B1A92928800E621C5 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E6B34A1A92928800E621C5 /* Media.xcassets */; };
+		F4E6B3501A92946B00E621C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E6B34F1A92946B00E621C5 /* Main.storyboard */; };
+		F4E6B3541A92978500E621C5 /* inmediatum.gpx in Resources */ = {isa = PBXBuildFile; fileRef = F4E6B3531A92978500E621C5 /* inmediatum.gpx */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F475BE791A925BC300776B83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F475BE571A925BC300776B83 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F475BE5E1A925BC300776B83;
-			remoteInfo = "Appollo Console";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F475BE5F1A925BC300776B83 /* Appollo Console.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appollo Console.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,14 +25,16 @@
 		F475BE641A925BC300776B83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F475BE661A925BC300776B83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F475BE671A925BC300776B83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F475BE691A925BC300776B83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F475BE6A1A925BC300776B83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F475BE6D1A925BC300776B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F475BE6F1A925BC300776B83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F475BE721A925BC300776B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F475BE781A925BC300776B83 /* Appollo ConsoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Appollo ConsoleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F475BE7D1A925BC300776B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F475BE7E1A925BC300776B83 /* Appollo_ConsoleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Appollo_ConsoleTests.m; sourceTree = "<group>"; };
+		F4CB74741A92BBC100DBD411 /* Appollo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appollo.framework; sourceTree = "<group>"; };
+		F4CB74761A92BC6800DBD411 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4E6B3411A9291E500E621C5 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		F4E6B3421A9291E500E621C5 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		F4E6B3451A92921500E621C5 /* NotificationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCell.h; sourceTree = "<group>"; };
+		F4E6B3461A92921500E621C5 /* NotificationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationCell.m; sourceTree = "<group>"; };
+		F4E6B34A1A92928800E621C5 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		F4E6B34F1A92946B00E621C5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F4E6B3531A92978500E621C5 /* inmediatum.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = inmediatum.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,13 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F475BE751A925BC300776B83 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F4CB74751A92BBC100DBD411 /* Appollo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +52,10 @@
 		F475BE561A925BC300776B83 = {
 			isa = PBXGroup;
 			children = (
+				F4CB74761A92BC6800DBD411 /* README.md */,
+				F4CB74741A92BBC100DBD411 /* Appollo.framework */,
+				F4E6B3531A92978500E621C5 /* inmediatum.gpx */,
 				F475BE611A925BC300776B83 /* Appollo Console */,
-				F475BE7B1A925BC300776B83 /* Appollo ConsoleTests */,
 				F475BE601A925BC300776B83 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				F475BE5F1A925BC300776B83 /* Appollo Console.app */,
-				F475BE781A925BC300776B83 /* Appollo ConsoleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,14 +71,13 @@
 		F475BE611A925BC300776B83 /* Appollo Console */ = {
 			isa = PBXGroup;
 			children = (
+				F4E6B3441A9291F500E621C5 /* MainView */,
 				F475BE661A925BC300776B83 /* AppDelegate.h */,
 				F475BE671A925BC300776B83 /* AppDelegate.m */,
-				F475BE691A925BC300776B83 /* ViewController.h */,
-				F475BE6A1A925BC300776B83 /* ViewController.m */,
-				F475BE6C1A925BC300776B83 /* Main.storyboard */,
-				F475BE6F1A925BC300776B83 /* Images.xcassets */,
+				F4E6B34F1A92946B00E621C5 /* Main.storyboard */,
 				F475BE711A925BC300776B83 /* LaunchScreen.xib */,
 				F475BE621A925BC300776B83 /* Supporting Files */,
+				F4E6B34A1A92928800E621C5 /* Media.xcassets */,
 			);
 			path = "Appollo Console";
 			sourceTree = "<group>";
@@ -102,21 +91,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F475BE7B1A925BC300776B83 /* Appollo ConsoleTests */ = {
+		F4E6B3441A9291F500E621C5 /* MainView */ = {
 			isa = PBXGroup;
 			children = (
-				F475BE7E1A925BC300776B83 /* Appollo_ConsoleTests.m */,
-				F475BE7C1A925BC300776B83 /* Supporting Files */,
+				F4E6B3411A9291E500E621C5 /* MainTableViewController.h */,
+				F4E6B3421A9291E500E621C5 /* MainTableViewController.m */,
+				F4E6B3451A92921500E621C5 /* NotificationCell.h */,
+				F4E6B3461A92921500E621C5 /* NotificationCell.m */,
 			);
-			path = "Appollo ConsoleTests";
-			sourceTree = "<group>";
-		};
-		F475BE7C1A925BC300776B83 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F475BE7D1A925BC300776B83 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +122,6 @@
 			productReference = F475BE5F1A925BC300776B83 /* Appollo Console.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F475BE771A925BC300776B83 /* Appollo ConsoleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F475BE851A925BC300776B83 /* Build configuration list for PBXNativeTarget "Appollo ConsoleTests" */;
-			buildPhases = (
-				F475BE741A925BC300776B83 /* Sources */,
-				F475BE751A925BC300776B83 /* Frameworks */,
-				F475BE761A925BC300776B83 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F475BE7A1A925BC300776B83 /* PBXTargetDependency */,
-			);
-			name = "Appollo ConsoleTests";
-			productName = "Appollo ConsoleTests";
-			productReference = F475BE781A925BC300776B83 /* Appollo ConsoleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +133,11 @@
 				TargetAttributes = {
 					F475BE5E1A925BC300776B83 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					F475BE771A925BC300776B83 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = F475BE5E1A925BC300776B83;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -189,7 +155,6 @@
 			projectRoot = "";
 			targets = (
 				F475BE5E1A925BC300776B83 /* Appollo Console */,
-				F475BE771A925BC300776B83 /* Appollo ConsoleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +164,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F475BE6E1A925BC300776B83 /* Main.storyboard in Resources */,
+				F4E6B3541A92978500E621C5 /* inmediatum.gpx in Resources */,
+				F4E6B3501A92946B00E621C5 /* Main.storyboard in Resources */,
+				F4E6B34B1A92928800E621C5 /* Media.xcassets in Resources */,
 				F475BE731A925BC300776B83 /* LaunchScreen.xib in Resources */,
-				F475BE701A925BC300776B83 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F475BE761A925BC300776B83 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,39 +178,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F475BE6B1A925BC300776B83 /* ViewController.m in Sources */,
+				F4E6B3471A92921500E621C5 /* NotificationCell.m in Sources */,
 				F475BE681A925BC300776B83 /* AppDelegate.m in Sources */,
+				F4CB74771A92BC6800DBD411 /* README.md in Sources */,
 				F475BE651A925BC300776B83 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F475BE741A925BC300776B83 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F475BE7F1A925BC300776B83 /* Appollo_ConsoleTests.m in Sources */,
+				F4E6B3431A9291E500E621C5 /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		F475BE7A1A925BC300776B83 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F475BE5E1A925BC300776B83 /* Appollo Console */;
-			targetProxy = F475BE791A925BC300776B83 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		F475BE6C1A925BC300776B83 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F475BE6D1A925BC300776B83 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F475BE711A925BC300776B83 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -345,9 +282,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Cristopher Serrato (CKUVK4P836)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Appollo",
+					Console,
+					"$(PROJECT_DIR)/Appollo",
+					Console,
+					"$(PROJECT_DIR)/Appollo",
+					Console,
+					"$(PROJECT_DIR)/Appollo",
+					Console,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Appollo Console/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "30992e62-10d4-4b55-80e2-c963f6811b81";
 			};
 			name = Debug;
 		};
@@ -355,43 +308,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Inmediatum Technology Services, S.A. de C.V. (9SL78H4EUY)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Appollo",
+					Console,
+					"$(PROJECT_DIR)/Appollo",
+					Console,
+					"$(PROJECT_DIR)/Appollo",
+					Console,
+					"$(PROJECT_DIR)/Appollo",
+					Console,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Appollo Console/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F475BE861A925BC300776B83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Appollo ConsoleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appollo Console.app/Appollo Console";
-			};
-			name = Debug;
-		};
-		F475BE871A925BC300776B83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Appollo ConsoleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appollo Console.app/Appollo Console";
+				PROVISIONING_PROFILE = "741c2832-a550-4bda-9863-695900ce4541";
 			};
 			name = Release;
 		};
@@ -414,14 +349,7 @@
 				F475BE841A925BC300776B83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F475BE851A925BC300776B83 /* Build configuration list for PBXNativeTarget "Appollo ConsoleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F475BE861A925BC300776B83 /* Debug */,
-				F475BE871A925BC300776B83 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
